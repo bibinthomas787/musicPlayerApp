@@ -16,8 +16,7 @@ var audioStuffed = true
 
 class FirstViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     
-    
-    @IBOutlet weak var myTableView: UITableView!
+      @IBOutlet weak var myTableView: UITableView!
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
