@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
-
+var audioPlayer = AVAudioPlayer()
 var songs:[String] = []
+var thisSong = 0
+var audioStuffed = true
+
 class FirstViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     
     
@@ -33,59 +37,52 @@ class FirstViewController: UIViewController, UITableViewDelegate,UITableViewData
     
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
        {
-           let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
+           let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+        cell.textLabel?.textColor = #colorLiteral(red: 0, green: 0.1020925418, blue: 0.659463346, alpha: 1)
            cell.textLabel?.text = songs[indexPath.row]
+        cell.textLabel?.font = UIFont(name: "Comic Sans MS", size: CGFloat())
            return cell
        }
        
+     override func didReceiveMemoryWarning()
+       {
+           super.didReceiveMemoryWarning()
+       }
     
     func gettingSongsName(){
         
-        
-        let folderURL = URL(fileURLWithPath: Bundle.main.resourcePath!)
-        
-        
-        do {
-            
-            let songpath =  try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
-           
-           
-           
-            for song in songpath  {
-                
-                var mysong = song.absoluteString
+         let folderURL = URL(fileURLWithPath:Bundle.main.resourcePath!)
                
-               
-               
-                
-                if mysong.contains(".mp3")
-                
-                {
-                
-                    let findString  = mysong.components(separatedBy: "/")
-                    
-                    print(findString[findString.count-1])
+           do
+               {
+                   let songPath = try FileManager.default.contentsOfDirectory(at: folderURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
                    
-                    
-                    mysong = mysong.replacingOccurrences(of: "%20", with: " ")
+                
+            
+                   //loop through the found urls
+                   for song in songPath
+                   {
+                       var mySong = song.absoluteString
+                       
+                       if mySong.contains(".mp3")
+                       {
+                           let findString = mySong.components(separatedBy: "/")
+                           mySong = findString[findString.count-1]
+                           mySong = mySong.replacingOccurrences(of: "%20", with: " ")
+                           mySong = mySong.replacingOccurrences(of: ".mp3", with: "")
+                           songs.append(mySong)
+                       }
+                       
+                   }
                    
-                    mysong = mysong.replacingOccurrences(of: ".mp3", with: " ")
-                    
-                    songs.append(mysong)
-                    
-                }
-            }
-            print(songs)
-            myTableView.reloadData()
-            
-        }
+                   myTableView.reloadData()
+               }
+               catch
+               {
+                   print ("ERROR")
+               }
         
-        catch
-        {
-            
-            
-            
-        }
+       
     }
 
 }
