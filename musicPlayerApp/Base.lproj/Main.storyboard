@@ -42,7 +42,7 @@
                                 <rect key="frame" x="38" y="135" width="338" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="barTintColor" red="0.3085534371201698" green="1" blue="0.82382562989081831" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.69550649085346161" green="1" blue="0.94672421740049872" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
@@ -54,6 +54,7 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="myTableView" destination="eyg-Up-UhR" id="b4x-el-PJk"/>
+                        <outlet property="searchBar" destination="3a5-WS-UQe" id="YCj-4d-ekd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
