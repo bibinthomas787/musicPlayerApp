@@ -122,7 +122,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFf-vR-rJS">
-                                <rect key="frame" x="52" y="513" width="109" height="53"/>
+                                <rect key="frame" x="52" y="516" width="109" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1986011845512155" green="0.54554278231803244" blue="0.57517920164246639" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Play">
@@ -132,19 +132,8 @@
                                     <action selector="play:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ASU-oq-RsP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7y-Ve-3Vz">
-                                <rect key="frame" x="242" y="509" width="98" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.17845352232975237" green="0.55504076252329537" blue="0.50116605712225981" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Pause">
-                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="pause:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="MWw-00-a3i"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwg-xY-0Dz">
-                                <rect key="frame" x="52" y="615" width="109" height="43"/>
+                                <rect key="frame" x="52" y="615" width="109" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.19443769102174804" green="0.51219345034712949" blue="0.50600177109885647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Prev">
@@ -173,7 +162,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CiS-cI-k8S">
-                                <rect key="frame" x="242" y="615" width="98" height="43"/>
+                                <rect key="frame" x="242" y="615" width="98" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.18630877924563055" green="0.53028768609842492" blue="0.49818677569718822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Next">
@@ -181,6 +170,17 @@
                                 </state>
                                 <connections>
                                     <action selector="next:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="BH3-m6-zyA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7y-Ve-3Vz">
+                                <rect key="frame" x="242" y="514" width="98" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.17845352232975237" green="0.55504076252329537" blue="0.50116605712225981" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pause:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="MWw-00-a3i"/>
                                 </connections>
                             </button>
                         </subviews>
