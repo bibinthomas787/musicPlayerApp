@@ -100,10 +100,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xh-Gr-E2Q">
-                                <rect key="frame" x="184" y="437" width="99" height="41"/>
+                                <rect key="frame" x="132" y="445" width="147" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34831561570439273" green="0.58195029145077726" blue="0.23941758803746008" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <state key="normal" title="Share Now">
-                                    <color key="titleColor" red="0.25471861153423758" green="0.58195029145077726" blue="0.27603262500118458" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
                                     <action selector="shareNow:" destination="sZK-C5-SLD" eventType="touchUpInside" id="5oc-Ok-q2N"/>
@@ -210,6 +213,22 @@
             </objects>
             <point key="canvasLocation" x="2769.5652173913045" y="508.92857142857139"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="aWi-C2-Q86">
+            <objects>
+                <viewController id="0fO-WL-SEN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ihs-OY-hIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3PO-ub-xof"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="fus-fc-UTn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0sz-qw-m31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2358" y="1333"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -224,6 +243,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="0fO-WL-SEN" kind="relationship" relationship="viewControllers" id="Vka-R0-KnW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
