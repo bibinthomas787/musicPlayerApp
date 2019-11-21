@@ -42,7 +42,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" selectedImage="play.fill" catalog="system" id="acW-dT-cKf">
+                    <tabBarItem key="tabBarItem" title="First" selectedImage="play.fill" catalog="system" id="acW-dT-cKf">
                         <color key="badgeColor" red="0.26314551310000001" green="0.73167207729999995" blue="0.68914879959999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                     <connections>
@@ -66,7 +66,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFf-vR-rJS">
-                                <rect key="frame" x="52" y="513" width="97" height="53"/>
+                                <rect key="frame" x="52" y="513" width="109" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1986011845512155" green="0.54554278231803244" blue="0.57517920164246639" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Play">
@@ -131,7 +131,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" selectedImage="play.circle" catalog="system" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Second" selectedImage="play.circle" catalog="system" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="label" destination="7rx-a5-jPd" id="dXu-Kb-dvx"/>
                         <outlet property="myImageView" destination="Kju-4a-9bM" id="Jcj-hq-2pg"/>
@@ -164,9 +164,7 @@
     </scenes>
     <resources>
         <image name="177d6a42bb99b12c7e75ddd88c02c0c4--picture-ideas-photo-ideas" width="236" height="354"/>
-        <image name="first" width="30" height="30"/>
         <image name="play.circle" catalog="system" width="64" height="60"/>
         <image name="play.fill" catalog="system" width="58" height="64"/>
-        <image name="second" width="30" height="30"/>
     </resources>
 </document>
