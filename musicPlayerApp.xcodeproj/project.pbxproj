@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B070DF22387293B00D7B1BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B070DF12387293B00D7B1BC /* ViewController.swift */; };
 		9B65F257238488B30064F43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65F256238488B30064F43E /* AppDelegate.swift */; };
 		9B65F259238488B30064F43E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65F258238488B30064F43E /* SceneDelegate.swift */; };
 		9B65F25B238488B30064F43E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65F25A238488B30064F43E /* FirstViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B070DF12387293B00D7B1BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B65F253238488B30064F43E /* musicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B65F256238488B30064F43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B65F258238488B30064F43E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				9B65F25A238488B30064F43E /* FirstViewController.swift */,
 				9B65F25C238488B30064F43E /* SecondViewController.swift */,
 				9B65F25E238488B30064F43E /* Main.storyboard */,
+				9B070DF12387293B00D7B1BC /* ViewController.swift */,
 				9B813A542385E34400C37B6C /* Third Song.mp3 */,
 				9B813A502385E2A900C37B6C /* first Song.mp3 */,
 				9B65F261238488B30064F43E /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B070DF22387293B00D7B1BC /* ViewController.swift in Sources */,
 				9B65F25D238488B30064F43E /* SecondViewController.swift in Sources */,
 				9B65F25B238488B30064F43E /* FirstViewController.swift in Sources */,
 				9B65F257238488B30064F43E /* AppDelegate.swift in Sources */,

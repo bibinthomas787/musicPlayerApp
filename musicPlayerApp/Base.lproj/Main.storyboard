@@ -45,6 +45,14 @@
                                 <color key="barTintColor" red="0.69550649085346161" green="1" blue="0.94672421740049872" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MY-eJ-xIh">
+                                <rect key="frame" x="290" y="55" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="About App"/>
+                                <connections>
+                                    <segue destination="sZK-C5-SLD" kind="show" id="yxj-y5-P3i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
@@ -60,6 +68,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2769.5652173913045" y="-251.11607142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nwL-Tx-B7X">
+            <objects>
+                <viewController id="sZK-C5-SLD" customClass="ViewController" customModule="musicPlayerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D3J-uP-UFt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6Z-7j-M3s">
+                                <rect key="frame" x="99" y="102" width="217" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Music Player App">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="ComicSansMS"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLh-fn-wg0">
+                                <rect key="frame" x="76" y="187" width="260" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" red="0.9531415365" green="1" blue="0.35043970590000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Discover the handpicked Playists &amp; Albums based on the albums that you Love. This Music Player App lets you play the music even if you are offline</string>
+                                <color key="textColor" red="0.59933613989637302" green="0.18889114416678798" blue="0.24160157765416404" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MTd-kG-4bu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3Yx-xo-6Os"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="niY-k9-EXQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3465.217391304348" y="-234.375"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
