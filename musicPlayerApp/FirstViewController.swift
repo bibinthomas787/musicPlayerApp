@@ -37,9 +37,10 @@ class FirstViewController: UIViewController, UITableViewDelegate,UITableViewData
             
         }
         else {
+            return songs.count
             
         }
-        return songs.count
+        
         
     }
     
