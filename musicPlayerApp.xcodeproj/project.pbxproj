@@ -18,6 +18,7 @@
 		9B813A512385E2A900C37B6C /* first Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A502385E2A900C37B6C /* first Song.mp3 */; };
 		9B813A532385E2B300C37B6C /* Second Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A522385E2B300C37B6C /* Second Song.mp3 */; };
 		9B813A552385E34400C37B6C /* Third Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A542385E34400C37B6C /* Third Song.mp3 */; };
+		9BDACFE623873B63001E4712 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDACFE523873B63001E4712 /* FavouriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9B813A502385E2A900C37B6C /* first Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "first Song.mp3"; sourceTree = "<group>"; };
 		9B813A522385E2B300C37B6C /* Second Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Second Song.mp3"; sourceTree = "<group>"; };
 		9B813A542385E34400C37B6C /* Third Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Third Song.mp3"; sourceTree = "<group>"; };
+		9BDACFE523873B63001E4712 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				9B65F25A238488B30064F43E /* FirstViewController.swift */,
 				9B65F25C238488B30064F43E /* SecondViewController.swift */,
 				9B65F25E238488B30064F43E /* Main.storyboard */,
+				9BDACFE523873B63001E4712 /* FavouriteViewController.swift */,
 				9B070DF12387293B00D7B1BC /* ViewController.swift */,
 				9B813A542385E34400C37B6C /* Third Song.mp3 */,
 				9B813A502385E2A900C37B6C /* first Song.mp3 */,
@@ -160,6 +163,7 @@
 				9B65F25D238488B30064F43E /* SecondViewController.swift in Sources */,
 				9B65F25B238488B30064F43E /* FirstViewController.swift in Sources */,
 				9B65F257238488B30064F43E /* AppDelegate.swift in Sources */,
+				9BDACFE623873B63001E4712 /* FavouriteViewController.swift in Sources */,
 				9B65F259238488B30064F43E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
