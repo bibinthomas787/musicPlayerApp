@@ -99,11 +99,24 @@
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xh-Gr-E2Q">
+                                <rect key="frame" x="184" y="437" width="99" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Share Now">
+                                    <color key="titleColor" red="0.25471861153423758" green="0.58195029145077726" blue="0.27603262500118458" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareNow:" destination="sZK-C5-SLD" eventType="touchUpInside" id="5oc-Ok-q2N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MTd-kG-4bu"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Yx-xo-6Os"/>
+                    <connections>
+                        <outlet property="shareButton" destination="3Xh-Gr-E2Q" id="yKI-OF-pPo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="niY-k9-EXQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
