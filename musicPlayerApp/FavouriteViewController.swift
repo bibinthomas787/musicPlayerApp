@@ -91,6 +91,14 @@ class FavouriteViewController: UIViewController {
           
        }
     
+    @IBAction func closeButton(_ sender: Any) {
+        
+    
+    }
+    
+    
+    
+    
     
     /*
     // MARK: - Navigation

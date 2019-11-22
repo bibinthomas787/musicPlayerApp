@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="2769.5652173913045" y="-251.11607142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Mail Composer View Controller-->
         <scene sceneID="nwL-Tx-B7X">
             <objects>
-                <viewController id="sZK-C5-SLD" customClass="ViewController" customModule="musicPlayerApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sZK-C5-SLD" customClass="MailComposerViewController" customModule="musicPlayerApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D3J-uP-UFt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,8 +99,24 @@
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWy-2G-TAL">
+                                <rect key="frame" x="314" y="49" width="22" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="clear" catalog="system"/>
+                                <connections>
+                                    <action selector="closeButton:" destination="EcR-fq-Xao" eventType="touchUpInside" id="mo0-7Z-AAS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdD-nz-AI3">
+                                <rect key="frame" x="251" y="445" width="115" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sendmail"/>
+                                <connections>
+                                    <action selector="sendMail:" destination="sZK-C5-SLD" eventType="touchUpInside" id="55u-Ks-C9b"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xh-Gr-E2Q">
-                                <rect key="frame" x="132" y="445" width="147" height="49"/>
+                                <rect key="frame" x="65" y="445" width="144" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.34831561570439273" green="0.58195029145077726" blue="0.23941758803746008" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
@@ -112,21 +128,18 @@
                                     <action selector="shareNow:" destination="sZK-C5-SLD" eventType="touchUpInside" id="5oc-Ok-q2N"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWy-2G-TAL">
-                                <rect key="frame" x="314" y="49" width="22" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="clear" catalog="system"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MTd-kG-4bu"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Yx-xo-6Os"/>
                     <connections>
+                        <outlet property="sendMail" destination="ZdD-nz-AI3" id="FbD-fi-hgo"/>
                         <outlet property="shareButton" destination="3Xh-Gr-E2Q" id="yKI-OF-pPo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="niY-k9-EXQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="EcR-fq-Xao" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3465.217391304348" y="-234.375"/>
         </scene>

@@ -19,6 +19,7 @@
 		9B813A532385E2B300C37B6C /* Second Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A522385E2B300C37B6C /* Second Song.mp3 */; };
 		9B813A552385E34400C37B6C /* Third Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A542385E34400C37B6C /* Third Song.mp3 */; };
 		9BBEA1CA23887DE800614C29 /* sugar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BBEA1C923887DE800614C29 /* sugar.mp3 */; };
+		9BBEA1CE2388868700614C29 /* MailComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBEA1CD2388868700614C29 /* MailComposerViewController.swift */; };
 		9BDACFE623873B63001E4712 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDACFE523873B63001E4712 /* FavouriteViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		9B813A522385E2B300C37B6C /* Second Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Second Song.mp3"; sourceTree = "<group>"; };
 		9B813A542385E34400C37B6C /* Third Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Third Song.mp3"; sourceTree = "<group>"; };
 		9BBEA1C923887DE800614C29 /* sugar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sugar.mp3; path = ../../songs/sugar.mp3; sourceTree = "<group>"; };
+		9BBEA1CD2388868700614C29 /* MailComposerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailComposerViewController.swift; sourceTree = "<group>"; };
 		9BDACFE523873B63001E4712 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 		9B65F24A238488B30064F43E = {
 			isa = PBXGroup;
 			children = (
+				9BBEA1CD2388868700614C29 /* MailComposerViewController.swift */,
 				9B65F255238488B30064F43E /* musicPlayerApp */,
 				9B65F254238488B30064F43E /* Products */,
 			);
@@ -167,6 +170,7 @@
 				9B65F25D238488B30064F43E /* SecondViewController.swift in Sources */,
 				9B65F25B238488B30064F43E /* FirstViewController.swift in Sources */,
 				9B65F257238488B30064F43E /* AppDelegate.swift in Sources */,
+				9BBEA1CE2388868700614C29 /* MailComposerViewController.swift in Sources */,
 				9BDACFE623873B63001E4712 /* FavouriteViewController.swift in Sources */,
 				9B65F259238488B30064F43E /* SceneDelegate.swift in Sources */,
 			);
