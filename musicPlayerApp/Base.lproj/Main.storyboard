@@ -242,7 +242,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Favourites">
                                         <attributes>
-                                            <font key="NSFont" size="53" name="ComicSansMS"/>
+                                            <font key="NSFont" size="52" name="ComicSansMS"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -254,6 +254,9 @@
                         <viewLayoutGuide key="safeArea" id="3PO-ub-xof"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favourites" id="fus-fc-UTn"/>
+                    <connections>
+                        <outlet property="favouriteTableView" destination="6gO-f7-w5i" id="AmN-x9-ZqR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0sz-qw-m31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
