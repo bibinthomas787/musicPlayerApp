@@ -9,6 +9,8 @@
 import UIKit
 import AVFoundation
 
+import AVKit
+
 var audioPlayer = AVAudioPlayer()
 var songs:[String] = []
 var thisSong = 0
@@ -53,13 +55,19 @@ class FirstViewController: UIViewController, UITableViewDelegate,UITableViewData
         
         if searching {
             
+            print("success")
             
-            
-        }
+       }
         else {
-        gettingSongsName()
+       gettingSongsName()
             
         }
+        
+       
+        
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 
