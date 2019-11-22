@@ -23,7 +23,7 @@ class SecondViewController: UIViewController {
            if audioStuffed == true && audioPlayer.isPlaying == false
            {
                audioPlayer.play()
-            
+            label.text = songs[thisSong]
             myImageView.image = UIImage(named: "ghfgh")
            }
        }
