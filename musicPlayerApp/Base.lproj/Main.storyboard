@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="2769.5652173913045" y="-251.11607142857142"/>
         </scene>
-        <!--Mail Composer View Controller-->
+        <!--View Controller-->
         <scene sceneID="nwL-Tx-B7X">
             <objects>
-                <viewController id="sZK-C5-SLD" customClass="MailComposerViewController" customModule="musicPlayerApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sZK-C5-SLD" customClass="ViewController" customModule="musicPlayerApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D3J-uP-UFt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,9 +114,6 @@
                                 <state key="normal" title="Sendmail">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="sendMail:" destination="sZK-C5-SLD" eventType="touchUpInside" id="55u-Ks-C9b"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xh-Gr-E2Q">
                                 <rect key="frame" x="65" y="445" width="144" height="52"/>
@@ -128,7 +125,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="shareNow:" destination="sZK-C5-SLD" eventType="touchUpInside" id="5oc-Ok-q2N"/>
+                                    <action selector="shareNow:" destination="sZK-C5-SLD" eventType="touchUpInside" id="lse-Ix-tpS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,10 +133,6 @@
                         <viewLayoutGuide key="safeArea" id="MTd-kG-4bu"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Yx-xo-6Os"/>
-                    <connections>
-                        <outlet property="sendMail" destination="ZdD-nz-AI3" id="FbD-fi-hgo"/>
-                        <outlet property="shareButton" destination="3Xh-Gr-E2Q" id="yKI-OF-pPo"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="niY-k9-EXQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="EcR-fq-Xao" userLabel="Exit" sceneMemberID="exit"/>
