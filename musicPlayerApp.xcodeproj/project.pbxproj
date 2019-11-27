@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9B070DF22387293B00D7B1BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B070DF12387293B00D7B1BC /* ViewController.swift */; };
+		9B33F8C0238EE3A0008B5C63 /* The Quite Mrng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F8BA238EE39E008B5C63 /* The Quite Mrng.mp3 */; };
+		9B33F8C1238EE3A0008B5C63 /* On My Own.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F8BB238EE39E008B5C63 /* On My Own.mp3 */; };
+		9B33F8C2238EE3A0008B5C63 /* The_Quiet_Morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F8BC238EE39F008B5C63 /* The_Quiet_Morning.mp3 */; };
+		9B33F8C3238EE3A0008B5C63 /* Elven Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F8BD238EE39F008B5C63 /* Elven Forest.mp3 */; };
+		9B33F8C4238EE3A0008B5C63 /* Deep Meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F8BE238EE39F008B5C63 /* Deep Meditation.mp3 */; };
+		9B33F8C5238EE3A0008B5C63 /* Quiet Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F8BF238EE3A0008B5C63 /* Quiet Time.mp3 */; };
 		9B65F257238488B30064F43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65F256238488B30064F43E /* AppDelegate.swift */; };
 		9B65F259238488B30064F43E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65F258238488B30064F43E /* SceneDelegate.swift */; };
 		9B65F25B238488B30064F43E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65F25A238488B30064F43E /* FirstViewController.swift */; };
@@ -15,14 +21,17 @@
 		9B65F260238488B30064F43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B65F25E238488B30064F43E /* Main.storyboard */; };
 		9B65F262238488B30064F43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B65F261238488B30064F43E /* Assets.xcassets */; };
 		9B65F265238488B30064F43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B65F263238488B30064F43E /* LaunchScreen.storyboard */; };
-		9B813A512385E2A900C37B6C /* first Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A502385E2A900C37B6C /* first Song.mp3 */; };
-		9B813A532385E2B300C37B6C /* Second Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A522385E2B300C37B6C /* Second Song.mp3 */; };
-		9B813A552385E34400C37B6C /* Third Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B813A542385E34400C37B6C /* Third Song.mp3 */; };
 		9BDACFE623873B63001E4712 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDACFE523873B63001E4712 /* FavouriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B070DF12387293B00D7B1BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B33F8BA238EE39E008B5C63 /* The Quite Mrng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Quite Mrng.mp3"; sourceTree = "<group>"; };
+		9B33F8BB238EE39E008B5C63 /* On My Own.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "On My Own.mp3"; sourceTree = "<group>"; };
+		9B33F8BC238EE39F008B5C63 /* The_Quiet_Morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Quiet_Morning.mp3; sourceTree = "<group>"; };
+		9B33F8BD238EE39F008B5C63 /* Elven Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Elven Forest.mp3"; sourceTree = "<group>"; };
+		9B33F8BE238EE39F008B5C63 /* Deep Meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Deep Meditation.mp3"; sourceTree = "<group>"; };
+		9B33F8BF238EE3A0008B5C63 /* Quiet Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiet Time.mp3"; sourceTree = "<group>"; };
 		9B65F253238488B30064F43E /* musicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B65F256238488B30064F43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B65F258238488B30064F43E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,9 +41,6 @@
 		9B65F261238488B30064F43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B65F264238488B30064F43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B65F266238488B30064F43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B813A502385E2A900C37B6C /* first Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "first Song.mp3"; sourceTree = "<group>"; };
-		9B813A522385E2B300C37B6C /* Second Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Second Song.mp3"; sourceTree = "<group>"; };
-		9B813A542385E34400C37B6C /* Third Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Third Song.mp3"; sourceTree = "<group>"; };
 		9BDACFE523873B63001E4712 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,12 +79,15 @@
 				9B65F25A238488B30064F43E /* FirstViewController.swift */,
 				9B65F25C238488B30064F43E /* SecondViewController.swift */,
 				9B65F25E238488B30064F43E /* Main.storyboard */,
+				9B33F8BE238EE39F008B5C63 /* Deep Meditation.mp3 */,
+				9B33F8BD238EE39F008B5C63 /* Elven Forest.mp3 */,
+				9B33F8BB238EE39E008B5C63 /* On My Own.mp3 */,
+				9B33F8BF238EE3A0008B5C63 /* Quiet Time.mp3 */,
+				9B33F8BA238EE39E008B5C63 /* The Quite Mrng.mp3 */,
+				9B33F8BC238EE39F008B5C63 /* The_Quiet_Morning.mp3 */,
 				9BDACFE523873B63001E4712 /* FavouriteViewController.swift */,
 				9B070DF12387293B00D7B1BC /* ViewController.swift */,
-				9B813A542385E34400C37B6C /* Third Song.mp3 */,
-				9B813A502385E2A900C37B6C /* first Song.mp3 */,
 				9B65F261238488B30064F43E /* Assets.xcassets */,
-				9B813A522385E2B300C37B6C /* Second Song.mp3 */,
 				9B65F263238488B30064F43E /* LaunchScreen.storyboard */,
 				9B65F266238488B30064F43E /* Info.plist */,
 			);
@@ -143,12 +152,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B33F8C2238EE3A0008B5C63 /* The_Quiet_Morning.mp3 in Resources */,
+				9B33F8C3238EE3A0008B5C63 /* Elven Forest.mp3 in Resources */,
+				9B33F8C5238EE3A0008B5C63 /* Quiet Time.mp3 in Resources */,
 				9B65F265238488B30064F43E /* LaunchScreen.storyboard in Resources */,
+				9B33F8C0238EE3A0008B5C63 /* The Quite Mrng.mp3 in Resources */,
 				9B65F262238488B30064F43E /* Assets.xcassets in Resources */,
-				9B813A512385E2A900C37B6C /* first Song.mp3 in Resources */,
+				9B33F8C4238EE3A0008B5C63 /* Deep Meditation.mp3 in Resources */,
+				9B33F8C1238EE3A0008B5C63 /* On My Own.mp3 in Resources */,
 				9B65F260238488B30064F43E /* Main.storyboard in Resources */,
-				9B813A532385E2B300C37B6C /* Second Song.mp3 in Resources */,
-				9B813A552385E34400C37B6C /* Third Song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
