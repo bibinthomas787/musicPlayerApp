@@ -75,6 +75,16 @@ class FirstViewController: UIViewController, UITableViewDelegate,UITableViewData
        
     }
     
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)  {
+        
+           
+               searchResult = songs.filter({$0.prefix(searchText.count) == searchText})
+               
+               searching = true
+    
+    
+    }
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
        {
            let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
@@ -127,7 +137,7 @@ class FirstViewController: UIViewController, UITableViewDelegate,UITableViewData
                        
                    }
                    
-                   myTableView.reloadData()
+            myTableView.reloadData()
                }
                catch
                {
@@ -141,15 +151,8 @@ class FirstViewController: UIViewController, UITableViewDelegate,UITableViewData
 
 }
 
-extension FirstViewController: UISearchBarDelegate  {
-      
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
-        print(searchText)
-    
-        searchResult = songs.filter({$0.prefix(searchText.count) == searchText})
-        
-        searching = true
-    }
-      
-  }
+
+
+
+
+
